@@ -1,0 +1,690 @@
+/*Start Main Rules*/
+*{
+    box-sizing:border-box;
+}
+
+body {
+    height:4000px;
+}
+
+.container{
+    width:1170px;
+    margin:auto;
+    
+
+}
+
+/*End Main Rules*/
+
+/*Start Header*/
+
+.header .slider{
+    background-color:#EEE;
+    height:600px;
+    text-align:center;
+    background-image:url('../business2.jpg');
+    background-size:cover;
+    padding-top:250px;
+}
+
+.header .slider .intro h2{
+    margin:0 auto;
+    color:#000;
+    font-size:50px;
+    width:600px;
+    border-top:3px solid #000;
+    border-bottom:3px solid #000;
+    padding:6px 0;
+    
+}
+
+.header .slider .intro button{
+    background:none;
+    margin-top:30px;
+    padding:10px 20px;
+    width:150px;
+    background-color:#EEE
+}
+
+.header .navbar{
+    background-color:#252F31;
+    color:#FFF;
+    overflow:hidden;
+}
+.header .navbar h2{
+    float:left;
+}
+.header .navbar h2 span{
+    color:#2ecc71;
+}
+
+.header .navbar ul{
+    list-style:none;
+    padding:0;
+    overflow:hidden;
+    float:right;
+}
+
+.header .navbar ul li{
+    float:left;
+    padding:10px;
+}
+
+.header .navbar ul li a{
+    text-decoration:none;
+    color:#FFF;
+
+}
+
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover{
+    color:#30B576;
+}
+
+/*End Header*/
+
+/*Start Features*/
+.features{
+    overflow:hidden;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+
+.features .feat{
+    float:left;
+    width:33.333333%;
+    height:150px;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.features .feat h2{
+    color:#555;
+    
+}
+
+.features .feat p{
+    line-height:1.4;
+    color:#888;
+}
+
+/*End Features*/
+
+/*Start About Me*/
+.about-me{
+    background-color:#F2F2F2;
+    overflow:hidden;
+    height:520px;
+}
+
+.about-me .image{
+    float:left;
+    width:40%
+}
+.about-me .image img{width:100%;}
+
+.about-me .info{
+    float:left;
+    width:60%;
+    padding:40px;
+
+}
+
+.about-me .info h2{
+    margin:20px 0 20px 40px;
+    color:#555;
+} 
+
+.about-me .info p{
+    line-height:1.4;
+    color:#666;
+}
+
+.about-me .info > p{
+    margin:0 0 10px 40px;
+}
+
+.about-me .info .hobbies{
+    padding:20px;
+    overflow:hidden;
+}
+
+.about-me .info .hobbies .content{
+    float:left;
+    width:50%;
+    min-height:100px;
+    overflow:hidden;
+    
+}
+
+.about-me .info .hobbies .content .icon{
+    float:left;
+    width:12%;
+    margin-right:5%;
+}
+.about-me .info .hobbies .content .test{
+    float:left;
+    width:83%;
+    
+    
+}
+
+.about-me .info .hobbies .content .icon img{
+    max-width:100%;
+    margin:20px 10px 0 0;
+}
+
+.about-me .info .hobbies .content .icon h3{
+    margin:0 0 10px 40px;
+    color:#555;
+}
+
+.about-me .info .hobbies .content .icon p{
+    margin:0 0 10px 40px;
+}
+
+
+
+/*End About Me*/
+
+/*Start My Skills*/
+
+.my-skills{
+    background-color:#FFF;
+    height:360px;
+    overflow:hidden;
+}
+
+.my-skills .skills{
+    float:left;
+    width:50%;
+    padding:40px;
+
+}
+
+.my-skills .skills h2{
+    margin:20px 0 20px 40px;
+    color:#555;
+} 
+
+.my-skills .skills p{
+    line-height:1.4;
+    color:#666;
+}
+
+.my-skills .skills > p{
+    margin:0 0 10px 40px;
+}
+
+.my-skills .skills > button{
+    margin:0 0 10px 40px;
+    background:none;
+    border:2px solid #2dcc70;
+    padding:13px;
+    color:#2dcc70;
+    width:150px;
+    margin-top:30px;
+}
+
+.my-skills .progress {
+    float:left;
+    width:50%;
+    height:100%;
+    
+
+}
+
+.my-skills .progress .technique h3{
+    color:#555;
+    margin-left:40px;
+    
+    
+}
+
+.my-skills .progress .technique div{
+    background-color:#F2F2F2;
+    height:25px;
+    width:80%;
+    margin-left:40px;
+
+}
+
+.my-skills .progress .technique div span{
+    background-color:#2dcc70;
+    height:25px;
+    display:block;
+    text-align:right;
+    line-height:25px;
+    color:#FFF;
+    font-weight:bold;
+}
+
+
+/*End My Skills*/
+
+
+/*Start Resume*/
+
+.resume{
+    background-color:#F2F2F2;
+    height:250px;
+    overflow:hidden;
+    text-align:center
+}
+
+.resume .exp {
+    float:left;
+    width:100%;
+    padding:10px;
+
+}
+
+.resume .exp h2{
+    color:#555;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+
+.resume .exp p{
+color:#888;
+margin-top:20px;
+line-height:1.4;
+}
+
+.resume .exp button{
+    margin-top:20px;
+    background:none;
+    border:2px solid #2dcc70;
+    padding:13px;
+    color:#2dcc70;
+    width:200px;
+    font-weight:bold;
+    font-size:18px
+
+}
+
+/*End Resume*/
+
+
+/*Start My Education*/
+
+.education{
+    background-color:#FFF;
+    height:480px;
+    overflow:hidden;
+}
+
+.education .information{
+    float:left;
+    width:50%;
+    padding:40px;
+    height:100%;
+
+}
+
+.education .information h2{
+    margin:20px 0 20px 40px;
+    color:#555;
+    margin-top:0px;
+
+} 
+
+.education .information p{
+    line-height:1.4;
+    color:#666;
+
+}
+
+.education .information > p{
+    margin:0 0 10px 40px;
+    
+}
+
+
+.education .progress{
+    float:left;
+    width:50%;
+    padding:40px;
+    height:100%;
+    margin-top:30px;
+    
+}
+
+
+.education .progress .certificate h3{
+    color:#555;
+    margin-bottom:10px;
+    
+}
+
+.education .progress .certificate span{
+    color:#999;
+    display:block;
+}
+
+.education .progress .certificate span:last-of-type
+{
+    padding:8px;   
+    background-color:#2dcc70;
+    color:#FFF;
+    display:inline-block;
+    margin-top:8px;
+}
+
+.education .progress .certificate p{
+    line-height:1.4;
+    color:#666;
+
+}
+
+.education .progress > p{
+    margin:0 0 10px 40px;
+    
+}
+
+
+
+/*End My Education*/
+
+
+/*Start work-exp*/
+
+.work-exp{
+    background-color:#FFF;
+    height:700px;
+    overflow:hidden;
+}
+
+.work-exp .exp{
+    float:left;
+    width:50%;
+    padding:40px;
+
+}
+
+
+.work-exp .exp h2{
+    margin:0px 0 20px 40px;
+    color:#555;
+    
+
+} 
+
+.work-exp .exp p{
+    line-height:1.4;
+    color:#666;
+
+}
+
+.work-exp .exp > p{
+    margin:0 0 10px 40px;
+    
+}
+
+.work-exp .progress{
+    float:left;
+    width:50%;
+    padding:40px;
+    height:100%;
+    margin-top:30px;
+    
+}
+
+
+.work-exp .progress .certificate h3{
+    color:#555;
+    margin-bottom:10px;
+    
+}
+
+.work-exp .progress .certificate span{
+    color:#999;
+    display:block;
+}
+
+.work-exp .progress .certificate span:last-of-type
+{
+    padding:8px;   
+    background-color:#2dcc70;
+    color:#FFF;
+    display:inline-block;
+    margin-top:8px;
+}
+
+.work-exp .progress .certificate p{
+    line-height:1.4;
+    color:#666;
+
+}
+
+.work-exp .progress > p{
+    margin:0 0 10px 40px;
+    
+}
+
+.hr{
+    width:55%;
+    color:#999;
+    height:1px;
+    border:1px;
+    margin:20px auto;
+
+}
+
+/*End work-exp*/
+
+
+/*Start Testimonial*/
+
+.testimonial{
+    background-color:#F2F2F2;
+    height:270px;
+    overflow:hidden;
+    text-align:center
+}
+
+.testimonial .exp {
+    float:left;
+    width:100%;
+
+}
+
+.testimonial .exp p{
+    line-height:1.7;
+    color:#666;
+    font-size:18px;
+    font-style:italic;
+    margin:60px 0 30px 50px
+
+}
+
+.testimonial .exp h3{
+    color:#555
+}
+
+.testimonial .exp ul{
+    list-style:none;
+    padding-left:0;
+}
+
+.testimonial .exp ul li{
+    width:15px;
+    height:15px;
+    border:2px solid #2dcc70;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+}
+
+.testimonial .exp ul li.active, .testimonial .exp ul li:hover {
+    background-color:#2dcc70;
+}
+
+
+/*End Testimonial*/
+
+/*Start Portofolio*/
+.portofolio{
+    background-color:#FFF;
+    overflow:hidden;
+    margin-top:20px;
+    margin-bottom:50px;
+}
+
+.portofolio .exp{
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+
+.portofolio .exp h2{
+    color:#555;
+    margin-top:30px;
+    margin-bottom:20px;
+
+}
+
+.portofolio .exp p{
+    color:#888;
+}
+
+.portofolio .our-work > div{
+    float:left;
+    width:33.33333%;
+    margin-bottom:10px;
+}
+
+.portofolio .our-work > div img {
+    width:92%;
+    padding:3px;
+    margin:10px;
+    border:1px solid #CCC;
+    box-shadow:10px 10px 12px #CCC;
+}
+
+
+
+/*End Portoflio*/
+
+/*Start Contact Me*/
+
+.contact{
+    background-color:#252F31;
+    overflow:hidden;
+    height:750px;
+    margin-top:0px;
+    margin-bottom:0px;
+    
+
+}
+
+.contact .info{
+    width:50%;
+    float:left;
+    margin-right:5%;
+}
+
+.contact h2{
+    color:#FFF;
+    margin-top:30px;
+    padding-left:40px;
+
+
+}
+
+.contact .info p {
+    color:#6A6E71;
+    padding-left:40px;
+    line-height:1.4;
+
+}
+
+.contact .address span{
+    display:block;
+}
+
+.contact h3{
+    padding-left:40px;
+    color:#FFF;
+}
+
+.contact h3 span{
+    color:#6A6E71;
+    padding-left:40px;
+}
+
+.contact .form {
+    width:45%;
+    float:left;
+    margin-top:80px;
+}
+
+.contact .form label{
+    display:block;
+    color:#D1D6DA;
+    margin-bottom:10px;
+    margin-top:15px;
+    
+}
+
+.contact .form input[type="text"]{
+    background-color:#4b5557;
+    color:#FFF;
+    border:0;
+    width:50%;
+    padding:10px;
+}
+
+.contact .form textarea{
+    background-color:#4b5557;
+    color:#FFF;
+    border:0;
+    width:50%;
+    padding:10px;
+    height:300px;
+}
+
+.contact .form input[type="submit"]{
+    display:block;
+    margin-top:20px;
+    padding:15px 25px;
+    background-color:#191e22;
+    color:#FFF;
+    border:0;
+
+}
+
+/*End Contact Me*/
+
+
+/*Start Footer*/
+
+.footer{
+    background-color:#191E22;
+    color:#6A6E71;
+    padding:20px 0;
+    text-align:center;
+    height:100px;
+    
+}
+
+.footer span{
+    font-weight:bold;
+    font-size:18px;
+    float:left;
+    margin-top:17px;
+}
+
+.footer ul {
+    list-style:none;
+    padding-left:0;
+    float:right;
+}
+
+.footer ul li {
+    margin:3.5px;
+    display:inline-block;
+    width:16px;
+}
+
+/*End Footer*/
